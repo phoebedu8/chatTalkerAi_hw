@@ -1,0 +1,42 @@
+.wrap{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.header-title{
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        width: 218px;
+    }
+}
+.header-btn{
+    width: 128px;
+    height: 40px;
+    border-radius: 22px;
+    background: #FF5D50;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        color: #FF5D50;
+        background: white;
+    }
+}
+
+//-------------------------------
+@media (max-width: 576px) {
+    header{
+        margin-bottom: 32px;
+    }
+    .header-title{
+        height: 72px;
+        border-bottom: 1px solid orange;
+        img{
+            width: 130px;
+        }
+    }
+}

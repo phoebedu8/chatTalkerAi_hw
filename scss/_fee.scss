@@ -1,0 +1,331 @@
+.wrap{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+// Banner
+.header-fee-color{
+    background: #F7F9FD;
+    height: 470px;
+    border-radius: 0px 0px 0px 300px;
+    margin-bottom: 50px;
+}
+.header-fee{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg);
+    height: 559px;
+    background-position: bottom right;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.fee-banner-text{
+    margin-top: 90px;
+    h1{
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+// 方案
+.program-area{
+    text-align: center;
+    position: relative;
+    h2{
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 48px;
+    }
+}
+.program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    a{
+        display: block;
+        width: 130px;
+        text-align: center;
+        padding: 12px 0;
+        font-size: 18px;
+        color: $text-title;
+        background: white;
+        border: 1px solid $text-title;
+        border-radius: 27px;
+        margin-right: 16px;
+        &:hover{
+            color: white;
+            background-color: $text-title;
+        }
+    }
+}
+
+// 版本
+.fee-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 36px;
+
+}
+.bg-y-ball-area{
+    position: relative;
+}
+.bg-y-ball{
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 361px;
+    height: 361px;
+    position: absolute;
+    top: 120px;
+    left: -250px;
+}
+.fee-version{
+    width: 48%;
+    height: 586px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    background: white;
+}
+.board{
+    h3{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding: 10px 0;
+    }
+}
+.board-area{
+    padding: 0 29px;
+}
+.fee-text{
+    text-align: center;
+    margin: 32px 0;
+}
+.board-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.board-num-content{
+    width: 169px;
+    height: 108px;
+    background: #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+    span{
+        font-size: 32px;
+        color: $text-title;
+    }
+    strong{
+        font-size: 32px;
+    }
+    sub{
+        color: $text-title;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+.equal{
+    font-size: 24px;
+}
+.board-items{
+    li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    img{
+        width: 19px;
+        margin-right: 12px;
+    }
+}
+.fee-btn{
+    width: 136px;
+    height: 49px;
+    background: $text-title;
+    color: white;
+    display: block;
+    border-radius: 27px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 42px;
+    font-size: 18px;
+}
+
+// 常見問題
+.fee-problem{
+    margin-bottom: 100px;
+    h2{
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+}
+.fee-problem-items{
+    li{
+        max-width: 904px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        box-shadow: 0px 2px 10px #00000014;
+        border-radius: 12px;
+        padding: 16px 32px;
+        margin-bottom: 16px;
+        &:nth-child(3){
+            align-items: flex-start;
+        }
+    }
+    p{
+        font-size: 18px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+.text-lb{
+    color: $text-title;
+    margin-bottom: 24px;
+}
+
+//-------------------------------
+@media (max-width: 576px) {
+    section{
+        padding: 0 10px;
+    }
+
+    // Banner
+    .header-title{
+        background: white;
+    }
+    .header-fee-color{
+        height: 540px;
+        border-radius: 0px 0px 0px 200px;
+    }
+    .fee-banner-text{
+        margin-top: 48px;
+        h1{
+            font-size: 32px;
+        }
+    }    
+    .header-fee{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
+        height: 550px;
+        background-position: top center;
+        background-size: cover; 
+    }
+
+    // 方案
+    .program-area{
+        width: 90%;
+        h2{
+            font-size: 28px;
+            margin-bottom: 24px;
+        }
+    }
+    .program{
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+        padding: 0px 30px;
+        display: -webkit-box;
+    }
+
+    // 版本
+    .fee-container{
+        display: block;
+        width: 95%;
+    }
+    .bg-y-ball{
+        z-index: -1;
+        background-size: initial;
+        left: -65px;
+        top: 480px;
+    }
+    .fee-version{
+        width: 100%;
+        height: 515px;
+        margin-bottom: 24px;
+    }
+    .fee-text{
+        margin: 24px 0;
+        p{
+            font-size: 14px;
+        }
+    }
+    .board-num{
+        margin-bottom: 27px;
+
+    }
+    .board-num-content{
+        width: 139px;
+        height: 89px;
+        margin: 0 6px;
+        span{
+            font-size: 28px;
+        }
+        strong{
+            font-size: 28px;
+        }
+    }
+    .equal{
+        font-size:18px;
+    }
+    .board-items{
+        img{
+            width: 16px;
+            margin-right: 16px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .fee-btn{
+        margin-top: 0;
+    }
+
+    // 常見問題
+    .fee-problem{
+        width: 85%;
+        margin-bottom: 60px;
+        h2{
+            font-size: 28px;
+            margin-bottom: 32px;
+        }
+    }
+    .fee-problem-items{
+        li{
+            width: 100%;
+            justify-content: space-between;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 16px;
+        }
+        img{
+            width: 16px;
+            height: 16px;
+        }
+    }
+    .text-lb{
+        margin-bottom: 16px;
+    }
+}

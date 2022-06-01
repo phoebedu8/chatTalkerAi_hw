@@ -1,0 +1,1137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.header-title {
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header-title img {
+  width: 218px;
+}
+
+.header-btn {
+  width: 128px;
+  height: 40px;
+  border-radius: 22px;
+  background: #FF5D50;
+  color: white;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header-btn:hover {
+  color: #FF5D50;
+  background: white;
+}
+
+@media (max-width: 576px) {
+  header {
+    margin-bottom: 32px;
+  }
+
+  .header-title {
+    height: 72px;
+    border-bottom: 1px solid orange;
+  }
+  .header-title img {
+    width: 130px;
+  }
+}
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+footer {
+  background: #F5F5F5;
+  padding: 16px 0;
+}
+footer p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.wrap-969 {
+  max-width: 969px;
+  margin: 0 auto;
+}
+
+.wrap-1088 {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.wrap-1039 {
+  max-width: 1039px;
+  margin: 0 auto;
+}
+
+.bg-home {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg");
+  background-repeat: no-repeat;
+  height: 768px;
+  background-position: top right;
+  position: relative;
+}
+
+.top-btn {
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  background: #56C4C5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+.top-btn p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bg-boy {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home.svg");
+  background-repeat: no-repeat;
+  height: 534px;
+  background-position: top right;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 534px;
+}
+.banner span {
+  font-size: 18px;
+  color: #56C4C5;
+}
+.banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #221E1F;
+  margin-bottom: 16px;
+}
+.banner p {
+  font-size: 20px;
+  color: #221E1F;
+}
+
+.plat {
+  position: relative;
+}
+.plat h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 101px;
+  margin-bottom: 20px;
+}
+
+.bg-d-blue {
+  position: absolute;
+  top: -270px;
+  width: 138px;
+  height: 360px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg");
+  background-position: right;
+  z-index: -1;
+}
+
+.plat-items {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.plat-items li {
+  width: 26%;
+}
+.plat-items img {
+  width: 90px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+.plat-items strong {
+  font-size: 24px;
+  font-weight: bold;
+  color: #221E1F;
+  display: block;
+  margin-bottom: 24px;
+}
+.plat-items p {
+  font-size: 16px;
+  color: #747474;
+}
+
+.role {
+  text-align: center;
+  margin-bottom: 124px;
+  position: relative;
+}
+.role h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.bg-l-blue {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball02.svg");
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 320px;
+  z-index: -1;
+  position: absolute;
+  right: 0px;
+  bottom: -123px;
+}
+
+.role-text {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-body {
+  width: 23%;
+  font-size: 16px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  background: white;
+}
+.card-body img {
+  border-radius: 12px 12px 0px 0px;
+  margin-bottom: 16px;
+}
+
+.card-footer {
+  font-size: 16px;
+  padding: 0 16px;
+  padding-bottom: 24px;
+}
+.card-footer h4 {
+  color: #56C4C5;
+  margin-bottom: 16px;
+}
+.card-footer p {
+  color: #747474;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.intro-l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+}
+.intro-l li {
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  padding: 0 32px;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  width: 48%;
+  height: 280px;
+}
+.intro-l li:nth-child(1), .intro-l li:nth-child(2) {
+  margin-bottom: 28px;
+}
+.intro-l img {
+  width: 50px;
+  margin-bottom: 40px;
+}
+.intro-l h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.intro-l p {
+  font-size: 16px;
+}
+
+.intro-r {
+  width: 40%;
+  color: #221E1F;
+}
+.intro-r h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.intro-r p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.intro-btn {
+  width: 136px;
+  height: 49px;
+  background: #56C4C5;
+  border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.intro-btn a {
+  color: white;
+  font-size: 18px;
+}
+
+.comment {
+  margin-bottom: 100px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: 45px 50px;
+}
+.comment h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 104px;
+}
+
+.comment-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.comment-items li {
+  width: 352px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  padding: 0 32px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  position: relative;
+  background: white;
+}
+
+.comment-photo {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}
+
+.star-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.star-box p {
+  font-size: 16px;
+}
+
+.star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.star img {
+  width: 16px;
+  margin-left: 8px;
+}
+
+.comment-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #DDDDDD;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.footer-fee {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
+  height: 503px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer-area {
+  margin-bottom: 60px;
+}
+.footer-area h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+.footer-area a {
+  background: #56C4C5;
+  color: white;
+  width: 136px;
+  height: 49px;
+  border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .bg-home {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg");
+    background-repeat: no-repeat;
+    background-position: center 390px;
+  }
+
+  .top-btn {
+    width: 50px;
+    height: 50px;
+    bottom: 110px;
+    right: 30px;
+  }
+  .top-btn p {
+    font-size: 14px;
+  }
+
+  .wrap, .wrap-1088 {
+    padding: 0 20px;
+  }
+
+  .bg-boy {
+    background-size: 304px;
+    background-position: bottom center;
+  }
+
+  .banner {
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+  }
+  .banner span {
+    font-size: 16px;
+  }
+  .banner h1 {
+    font-size: 32px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+
+  .plat h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+    margin-top: 98.5px;
+  }
+
+  .bg-d-blue {
+    top: 0;
+    background-size: 126px;
+    background-repeat: no-repeat;
+    background-position: -65px 20px;
+  }
+
+  .plat-items {
+    display: block;
+  }
+  .plat-items li {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .plat-items li:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .plat-items img {
+    width: 60px;
+  }
+  .plat-items strong {
+    font-size: 18px;
+  }
+  .plat-items p {
+    font-size: 16px;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .role h2 {
+    font-size: 28px;
+  }
+
+  .role-text {
+    font-size: 18px;
+  }
+
+  .card-body {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .bg-l-blue {
+    background-size: 135px;
+    width: 88px;
+    height: 138px;
+    right: 0;
+    bottom: -50px;
+  }
+
+  .main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .intro-l {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .main .intro-r {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+
+  .intro-l {
+    margin: 0 auto;
+  }
+  .intro-l li {
+    width: 100%;
+    padding: 0 24px;
+    height: 284px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .intro-l li:nth-child(1), .intro-l li:nth-child(2), .intro-l li:nth-child(3) {
+    margin-bottom: 24px;
+  }
+  .intro-l img {
+    width: 52px;
+    margin-bottom: 24px;
+  }
+
+  .intro-r {
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .intro-r h2 {
+    font-size: 28px;
+  }
+  .intro-r p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .intro-btn {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .comment {
+    background-size: 153px;
+    background-position: -76px 41px;
+  }
+  .comment h2 {
+    font-size: 28px;
+    margin-bottom: 90px;
+  }
+
+  .comment-items {
+    display: block;
+  }
+  .comment-items li {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .comment-items li:nth-child(2), .comment-items li:nth-child(3) {
+    display: none;
+  }
+
+  .footer-fee {
+    height: 461px;
+  }
+
+  .footer-area h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.header-fee-color {
+  background: #F7F9FD;
+  height: 470px;
+  border-radius: 0px 0px 0px 300px;
+  margin-bottom: 50px;
+}
+
+.header-fee {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg);
+  height: 559px;
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fee-banner-text {
+  margin-top: 90px;
+}
+.fee-banner-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.fee-banner-text p {
+  font-size: 16px;
+}
+
+.program-area {
+  text-align: center;
+  position: relative;
+}
+.program-area h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 48px;
+}
+.program a {
+  display: block;
+  width: 130px;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 18px;
+  color: #56C4C5;
+  background: white;
+  border: 1px solid #56C4C5;
+  border-radius: 27px;
+  margin-right: 16px;
+}
+.program a:hover {
+  color: white;
+  background-color: #56C4C5;
+}
+
+.fee-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+.bg-y-ball-area {
+  position: relative;
+}
+
+.bg-y-ball {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 361px;
+  height: 361px;
+  position: absolute;
+  top: 120px;
+  left: -250px;
+}
+
+.fee-version {
+  width: 48%;
+  height: 586px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  background: white;
+}
+
+.board h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+.board-area {
+  padding: 0 29px;
+}
+
+.fee-text {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.board-num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 32px;
+}
+
+.board-num-content {
+  width: 169px;
+  height: 108px;
+  background: #F5F5F5;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0 10px;
+}
+.board-num-content span {
+  font-size: 32px;
+  color: #56C4C5;
+}
+.board-num-content strong {
+  font-size: 32px;
+}
+.board-num-content sub {
+  color: #56C4C5;
+}
+.board-num-content p {
+  font-size: 12px;
+}
+
+.equal {
+  font-size: 24px;
+}
+
+.board-items li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+.board-items img {
+  width: 19px;
+  margin-right: 12px;
+}
+
+.fee-btn {
+  width: 136px;
+  height: 49px;
+  background: #56C4C5;
+  color: white;
+  display: block;
+  border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 42px;
+  font-size: 18px;
+}
+
+.fee-problem {
+  margin-bottom: 100px;
+}
+.fee-problem h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.fee-problem-items li {
+  max-width: 904px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  padding: 16px 32px;
+  margin-bottom: 16px;
+}
+.fee-problem-items li:nth-child(3) {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.fee-problem-items p {
+  font-size: 18px;
+}
+.fee-problem-items img {
+  width: 20px;
+  height: 20px;
+}
+
+.text-lb {
+  color: #56C4C5;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+  section {
+    padding: 0 10px;
+  }
+
+  .header-title {
+    background: white;
+  }
+
+  .header-fee-color {
+    height: 540px;
+    border-radius: 0px 0px 0px 200px;
+  }
+
+  .fee-banner-text {
+    margin-top: 48px;
+  }
+  .fee-banner-text h1 {
+    font-size: 32px;
+  }
+
+  .header-fee {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
+    height: 550px;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .program-area {
+    width: 90%;
+  }
+  .program-area h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .program {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 0px 30px;
+    display: -webkit-box;
+  }
+
+  .fee-container {
+    display: block;
+    width: 95%;
+  }
+
+  .bg-y-ball {
+    z-index: -1;
+    background-size: initial;
+    left: -65px;
+    top: 480px;
+  }
+
+  .fee-version {
+    width: 100%;
+    height: 515px;
+    margin-bottom: 24px;
+  }
+
+  .fee-text {
+    margin: 24px 0;
+  }
+  .fee-text p {
+    font-size: 14px;
+  }
+
+  .board-num {
+    margin-bottom: 27px;
+  }
+
+  .board-num-content {
+    width: 139px;
+    height: 89px;
+    margin: 0 6px;
+  }
+  .board-num-content span {
+    font-size: 28px;
+  }
+  .board-num-content strong {
+    font-size: 28px;
+  }
+
+  .equal {
+    font-size: 18px;
+  }
+
+  .board-items img {
+    width: 16px;
+    margin-right: 16px;
+  }
+  .board-items p {
+    font-size: 14px;
+  }
+
+  .fee-btn {
+    margin-top: 0;
+  }
+
+  .fee-problem {
+    width: 85%;
+    margin-bottom: 60px;
+  }
+  .fee-problem h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .fee-problem-items li {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .fee-problem-items p {
+    font-size: 16px;
+  }
+  .fee-problem-items img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .text-lb {
+    margin-bottom: 16px;
+  }
+}
